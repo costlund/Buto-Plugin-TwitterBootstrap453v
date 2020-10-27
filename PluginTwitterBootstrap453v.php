@@ -55,7 +55,7 @@ class PluginTwitterBootstrap453v{
     return wfDocument::createHtmlElement('script', null, array('src' => '/plugin/twitter/bootstrap453v/jquery/jquery_3.3.1.js'));
   }
   private function getElementJsPopper(){
-    return wfDocument::createHtmlElement('script', null, array('src' => '/plugin/twitter/bootstrap453v/popper/1.14.3_popper.min.js'));
+    return wfDocument::createHtmlElement('script', null, array('src' => '/plugin/twitter/bootstrap453v/popper/1.14.7_popper.min.js'));
   }
   private function getElementStyleWebmaster(){
     return wfDocument::createHtmlElement('style', ".webmaster{}.webmaster-border{border:solid 1px red !important}.webmaster-text{color:red !important}");

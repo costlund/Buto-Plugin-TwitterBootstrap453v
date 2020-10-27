@@ -2,7 +2,7 @@ version: 1.0.1
 history:
   1.0.1:
     date: '2020-10-27'
-    title: 'Popper'
+    title: Popper
     description: 'Removed inclusion of popper.min.js.map. Using version 1.14.7 now.'
   1.0.0:
     date: '2020-10-27'
@@ -11,7 +11,7 @@ history:
 plugin:
   -
     name: wf/array
-    version: 1.0.1
+    version: 1.2.0
 sys:
   -
     name: mercury

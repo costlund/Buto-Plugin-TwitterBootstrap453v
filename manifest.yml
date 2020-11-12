@@ -1,5 +1,9 @@
-version: 1.0.1
+version: 1.1.0
 history:
+  1.1.0:
+    date: '2020-11-12'
+    title: Modals
+    description: 'When using multiple modals the backdrop was not between modals. We add a fix for that.'
   1.0.1:
     date: '2020-10-27'
     title: Popper

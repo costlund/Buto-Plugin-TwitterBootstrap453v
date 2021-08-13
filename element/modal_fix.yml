@@ -9,9 +9,16 @@ innerHTML: |
       }, 0);
     },
     'hidden.bs.modal': function() {
+      /**
+       * Add/remove class modal-open from body.
+       */
       if ($('.modal:visible').length > 0) {
         setTimeout(function() {
           $(document.body).addClass('modal-open');
+        }, 0);
+      }else{
+        setTimeout(function() {
+          $(document.body).removeClass('modal-open');
         }, 0);
       }
     }

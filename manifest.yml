@@ -1,5 +1,9 @@
-version: 1.1.0
+version: 1.2.0
 history:
+  1.2.0:
+    date: '2021-08-13'
+    title: Modals
+    description: 'Remove class modal-open in event when no modals are visible.'
   1.1.0:
     date: '2020-11-12'
     title: Modals

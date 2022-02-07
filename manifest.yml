@@ -1,5 +1,9 @@
-version: 1.2.0
+version: 1.2.1
 history:
+  1.2.1:
+    date: '2022-02-07'
+    title: Parentheses
+    description: 'Add parentheses class.'
   1.2.0:
     date: '2021-08-13'
     title: Modals

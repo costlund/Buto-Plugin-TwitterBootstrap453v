@@ -52,7 +52,7 @@ if($user->get('plugin/twitter/bootstrap413v/include')){
 }
 ```
 
-###Element check.
+### Element check
 
 ```
 type: div
@@ -61,8 +61,17 @@ settings:
 innerHTML: 
 ```
 
+## CSS class
+Extra classes along with Bootstrap.
+
 ### Webmaster
 Classes for webmaster purpose are always added in a single style element.
 ```
-.webmaster{}.webmaster-border{border:solid 1px red !important}.webmaster-text{color:red !important}
+webmaster-border
+webmaster-text
+```
+
+### Parentheses
+```
+content-parentheses
 ```

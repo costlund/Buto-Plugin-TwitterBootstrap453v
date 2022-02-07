@@ -30,6 +30,7 @@ class PluginTwitterBootstrap453v{
       $element[] = $this->getElementJsBootstrap();
     }
     $element[] = $this->getElementStyleWebmaster();
+    $element[] = $this->getElementStyleContent();
     $element[] = $this->getElementModalFix();
     $element[] = $this->getElementText("<!-- PluginTwitterBootstrap453v, End -->\n");
     wfDocument::renderElement($element);
@@ -60,6 +61,9 @@ class PluginTwitterBootstrap453v{
   }
   private function getElementStyleWebmaster(){
     return wfDocument::createHtmlElement('style', ".webmaster{}.webmaster-border{border:solid 1px red !important}.webmaster-text{color:red !important}");
+  }
+  private function getElementStyleContent(){
+    return wfDocument::createHtmlElement('style', ".content{}.content-parentheses::before{content: '(' !important}.content-parentheses::after{content: ')' !important}");
   }
   private function getElementModalFix(){
     wfPlugin::includeonce('wf/yml');

@@ -72,6 +72,13 @@ webmaster-text
 ```
 
 ### Parentheses
+Add parentheses around.
 ```
 content-parentheses
+```
+
+### Colon
+Add a colon after.
+```
+content-colon
 ```

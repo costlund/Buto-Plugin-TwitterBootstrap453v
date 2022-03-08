@@ -63,7 +63,7 @@ class PluginTwitterBootstrap453v{
     return wfDocument::createHtmlElement('style', ".webmaster{}.webmaster-border{border:solid 1px red !important}.webmaster-text{color:red !important}");
   }
   private function getElementStyleContent(){
-    return wfDocument::createHtmlElement('style', ".content{}.content-parentheses::before{content: '(' !important}.content-parentheses::after{content: ')' !important}");
+    return wfDocument::createHtmlElement('style', ".content{}.content-parentheses::before{content: '(' !important}.content-parentheses::after{content: ')' !important}.content-colon::after{content: ':' !important}");
   }
   private function getElementModalFix(){
     wfPlugin::includeonce('wf/yml');

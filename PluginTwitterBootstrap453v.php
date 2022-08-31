@@ -39,10 +39,10 @@ class PluginTwitterBootstrap453v{
     return wfDocument::createHtmlElement('text', $text);
   }
   private function getElementMetaCharset(){
-    return wfDocument::createHtmlElement('meta', null, array('charset' => 'utf-8'));
+    return wfDocument::createHtmlElement('meta', null, array('charset' => 'utf-8'), array('i18n' => false));
   }
   private function getElementMetaViewport(){
-    return wfDocument::createHtmlElement('meta', null, array('name' => 'viewport', 'content' => "width=device-width, user-scalable=no"));
+    return wfDocument::createHtmlElement('meta', null, array('name' => 'viewport', 'content' => "width=device-width, user-scalable=no"), array('i18n' => false));
   }
   private function getElementCss(){
     return wfDocument::createHtmlElement('link', null, array('rel' => 'stylesheet', 'href' => '/plugin/twitter/bootstrap453v/css/bootstrap.min.css', 'id' => 'PluginTwitterBootstrap413v'));

@@ -1,5 +1,9 @@
-version: 1.2.3
+version: 1.2.4
 history:
+  1.2.4:
+    date: '2022-08-31'
+    title: Meta
+    description: 'Disable i18n on meta tags.'
   1.2.3:
     date: '2022-06-07'
     title: Versions
